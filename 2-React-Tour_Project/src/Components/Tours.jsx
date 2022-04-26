@@ -1,7 +1,7 @@
 import React from 'react';
 import Tour from './Tour';
 import styles from "./Body.module.css"
-const Tours = ({ tours }) => {
+const Tours = ({ tours ,removtour }) => {
   return (
     <section className={styles.title}>
       <div>
@@ -9,7 +9,7 @@ const Tours = ({ tours }) => {
       </div>
       {/* mapping */}
       {tours.map((tour) => {
-        return <Tour key={tour.id} {...tour} />;
+        return <Tour key={tour.id} {...tour} removtour={removtour}/>;
       })}
     </section>
   );

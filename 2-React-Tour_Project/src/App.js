@@ -5,6 +5,10 @@ import Tours from './Components/Tours';
 const App = () => {
   const [loading, setLoading] = useState(false);
   const [tours, setTours] = useState([]);
+  const removtour = (id) => {
+    const newtours = tours.filter((tour) => tour.id != id);
+    setTours(newtours);
+  };
 
   //  fetching data
   const fetcTours = async () => {
@@ -14,7 +18,6 @@ const App = () => {
       let tours = await res.json();
       setLoading(false);
       setTours(tours);
-      console.log('tours:', tours);
     } catch (err) {
       setLoading(false);
       console.log('err:', err);
@@ -32,10 +35,19 @@ const App = () => {
       </>
     );
   }
+  // for refreshing button
+  if (tours.length === 0) {
+    return (
+      <div>
+        <h2>No Tours Left...</h2>
+        <button onClick={fetcTours}> Refrsh</button>
+      </div>
+    );
+  }
   // else return tourse components
   return (
     <div>
-      <Tours tours={tours}/>
+      <Tours tours={tours} removtour={removtour} />
       {/* sending props to Tours */}
     </div>
   );

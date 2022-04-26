@@ -1,6 +1,10 @@
-.data{
-    align-items: center;
-    margin-left: 200px;
+.data {
+  align-items: center;
+  margin-left: 200px;
 }
-.title{
-    text-align:center}
+.title {
+  text-align: center;
+}
+.Tours{
+  text-align:center;
+}
