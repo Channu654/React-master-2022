@@ -1,5 +1,5 @@
 import React from 'react';
-
+import styles from "./Body.module.css"
 const List = ({ people }) => {
   return (
     <>
@@ -8,7 +8,7 @@ const List = ({ people }) => {
 
         return (
           <div Key={id}>
-            <img src={image} />
+            <img src={image} className={styles.images}/>
             <h2>{name}</h2>
             <h2>Age:{" "+ Age} years</h2>
           </div>

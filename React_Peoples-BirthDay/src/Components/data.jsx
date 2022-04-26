@@ -1,60 +1,71 @@
 const data = [
   {
     id: 1,
-    name: 'ViratKohili',
-    Age: 33,
+    name: 'tajmahal',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/7/7e/Virat_Kohli.jpg',
+      'https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg',
+    info: "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4]Persian: تاج محل[5]lit. 'Crown of the Palace', [taːdʒ ˈmɛːɦ(ə)l]),[6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
   },
   {
     id: 2,
-    name: 'Anushka',
-    Age: 33,
+    name: 'Burj-Khalifa',
     image:
-      'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQBn5zkP-FRuEkRRp0QxUOHzONh3LChYdhh7Ebh692VQHm8iRKe',
+      'https://assets.cntraveller.in/photos/60ba23cbe1b212c19a817fb0/16:9/w_1280,c_limit/Burj-Khalifa--1366x768.jpg',
+    info: "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4]Persian: تاج محل[5]lit. 'Crown of the Palace', [taːdʒ ˈmɛːɦ(ə)l]),[6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
   },
   {
     id: 3,
-    name: 'Sachin',
-    Age: 49,
+    name: 'Mysore-Aramane',
     image:
-      'https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2021/04/24/931785-sachin-tendulkar-970.jpg',
+      'https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Mysore-palace_600-1280x720.jpg',
+    info: "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4]Persian: تاج محل[5]lit. 'Crown of the Palace', [taːdʒ ˈmɛːɦ(ə)l]),[6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
   },
   {
     id: 4,
-    name: 'sehwag',
-    Age: 43,
+    name: 'Hampi',
     image:
-      'https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-2uvsj55hh7cthmgfsk9bgfjlm5-20181122123507.Medi.jpeg',
+      'https://images.newindianexpress.com/uploads/user/imagelibrary/2021/11/15/w1200X800/Highlight_on.jpg',
+    info: "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4]Persian: تاج محل[5]lit. 'Crown of the Palace', [taːdʒ ˈmɛːɦ(ə)l]),[6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
   },
   {
     id: 5,
-    name: 'Ronaldo',
-    Age: 37,
+    name: 'GolGumbaj',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg',
+      'https://img.traveltriangle.com/blog/wp-content/uploads/2019/05/BTV1.jpg',
+    info: "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4]Persian: تاج محل[5]lit. 'Crown of the Palace', [taːdʒ ˈmɛːɦ(ə)l]),[6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
   },
   {
     id: 6,
-    name: 'Lionel_Messi',
-    Age: 38,
-    image:
-      'https://images2.minutemediacdn.com/image/upload/c_crop,w_3998,h_2248,x_0,y_82/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01g12s736x003spje13a.jpg',
+    name: 'NandiBetta',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/8/8f/Nandi_base.jpg',
+    info: "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4]Persian: تاج محل[5]lit. 'Crown of the Palace', [taːdʒ ˈmɛːɦ(ə)l]),[6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
   },
   {
     id: 7,
-    name: 'smriti_mandhana',
-    Age: 25,
+    name: 'Gateway-of-India',
     image:
-      'https://thehindustangazette.com/wp-content/uploads/2022/01/Smriti-Mandhana.jpg',
+      'https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg',
+    info: "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4]Persian: تاج محل[5]lit. 'Crown of the Palace', [taːdʒ ˈmɛːɦ(ə)l]),[6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
   },
   {
     id: 8,
-    name: 'Yesh',
-    Age: 36,
+    name: 'Marine drive, Mumbai',
     image:
-      'https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/yash-on-kgf-2-main.jpg',
+      'https://media-cdn.tripadvisor.com/media/photo-s/0d/40/ce/c3/mumbai-marine-drive-along.jpg',
+    info: "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4]Persian: تاج محل[5]lit. 'Crown of the Palace', [taːdʒ ˈmɛːɦ(ə)l]),[6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
+  },
+  {
+    id: 9,
+    name: 'Colaba Causeway',
+    image:
+      'https://mumbaitourism.travel/images/places-to-visit/headers/colaba-causeway-mumbai-indian-tourism-entry-fee-timings-holidays-reviews-header.jpg',
+    info: "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4]Persian: تاج محل[5]lit. 'Crown of the Palace', [taːdʒ ˈmɛːɦ(ə)l]),[6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
+  },
+  {
+    id: 10,
+    name: 'Girgaum Chowpatty',
+    image:
+      'https://image.shutterstock.com/image-photo/mumbai-maharashtra-india-january-21-260nw-1097814164.jpg',
+    info: "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4]Persian: تاج محل[5]lit. 'Crown of the Palace', [taːdʒ ˈmɛːɦ(ə)l]),[6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
   },
 ];
-
-export { data };
