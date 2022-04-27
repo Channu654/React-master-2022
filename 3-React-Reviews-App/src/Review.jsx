@@ -3,7 +3,7 @@ import people from './data';
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 import styles from './our.module.css';
 const Review = () => {
-  const [index, setIndex] = useState(1);
+  const [index, setIndex] = useState(0);
   const { name, job, image, text, info } = people[index];
   // to avoid the error after completiton of array wts nex or prev array wts pre???
 
