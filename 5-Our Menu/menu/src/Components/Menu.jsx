@@ -1,6 +1,8 @@
 import React from 'react';
 
 const Menu = ({ items }) => {
+  console.log('items:', items);
+
   return (
     <div className='section-center'>
       {items.map((menuItem) => {
