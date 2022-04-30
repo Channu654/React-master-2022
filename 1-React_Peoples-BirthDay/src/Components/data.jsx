@@ -1,4 +1,4 @@
-const data = [
+const Data = [
   {
     id: 1,
     name: 'tajmahal',
@@ -69,3 +69,4 @@ const data = [
     info: "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4]Persian: تاج محل[5]lit. 'Crown of the Palace', [taːdʒ ˈmɛːɦ(ə)l]),[6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
   },
 ];
+export default Data;
